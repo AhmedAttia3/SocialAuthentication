@@ -74,7 +74,7 @@ class MainActivity : SocialAuthActivity() {
 </br >
 
 
-1. Open your `/app/res/values/strings.xml file`.
+1. Open your `/app/res/values/strings.xml` file.
 2. Add string elements with the names facebook_app_id, fb_login_protocol_scheme and facebook_client_token, and set the values to your App ID and Client Token. For example, if your app ID is 1234 and your client token is 56789 your code looks like the following:
 ```xml
 <string name="facebook_app_id">1234</string>
