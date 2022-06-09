@@ -70,7 +70,8 @@ class MainActivity : SocialAuthActivity() {
 1. [create a new app on Facebook developer](https://developers.facebook.com/docs/facebook-login/android/#1--select-an-app-or-create-a-new-app)
 2. [Associate Your Package Name and Default Class with Your App](https://developers.facebook.com/docs/facebook-login/android/#5--associate-your-package-name-and-default-class-with-your-app)
 3. [Provide the Development and Release Key Hashes for Your App](https://developers.facebook.com/docs/facebook-login/android/#6--provide-the-development-and-release-key-hashes-for-your-app)
-4. Edit Your Resources and Manifest
+4. Edit Your Resources and Manifest.
+</br >
 
 
 1. Open your /app/res/values/strings.xml file.
