@@ -36,8 +36,7 @@ class MainActivity : SocialAuthActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
-
-
+    
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -55,11 +54,9 @@ class MainActivity : SocialAuthActivity() {
                     ) {
                         // updateUi(socialUser)
                     }
-                    
                     override fun onCancel() {
                        
                     }
-                    
                     override fun onError(throwable: Throwable) {
                         // handel error
                     }
@@ -68,6 +65,7 @@ class MainActivity : SocialAuthActivity() {
         }
     }
 }
+```
 ### Facebook
 1. [create a new app on Facebook developer](https://developers.facebook.com/docs/facebook-login/android/#1--select-an-app-or-create-a-new-app)
 2. [Associate Your Package Name and Default Class with Your App](https://developers.facebook.com/docs/facebook-login/android/#5--associate-your-package-name-and-default-class-with-your-app)
@@ -122,7 +120,6 @@ Add a uses-permission element to the manifest after the application element:
 class MainActivity : SocialAuthActivity() {
 
     private lateinit var binding: ActivityMainBinding
-    
     private val facePermissions = listOf(
         AuthPermissions.EMAIL,
         AuthPermissions.PUBLIC_PROFILE,
@@ -144,11 +141,9 @@ class MainActivity : SocialAuthActivity() {
                     ) {
                         // updateUi(socialUser)
                     }
-                    
                     override fun onCancel() {
                        
                     }
-                    
                     override fun onError(throwable: Throwable) {
                         // handel error
                     }
